@@ -1,0 +1,137 @@
+/* VideoBackgroundPage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Yatra One', cursive;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+.black {
+    height: 100vh;
+    object-fit: cover;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.5;
+}
+  
+/* BookingForm.css */
+
+.booking-form-container {
+    text-align: center;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='date'] {
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* display: flex;
+    align-items:flex-end;
+    justify-content: flex-end; */
+    animation: slide-in 0.5s ease;
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-line {
+    width: 0;
+    height: 2px;
+    background-color: #53ff64;
+    animation: line-animation 8s linear forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes line-animation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }  
+
+  .st {
+    top: 20px;
+    left: 20px;
+    color: white;
+    z-index: 33;
+    position: fixed;
+    background-color:transparent;
+    cursor: pointer;
+    font-family: 'Yatra One', cursive;
+    font-size: 1.2rem;
+  }
+  
+  

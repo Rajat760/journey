@@ -1,0 +1,65 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .logo1 {
+    /* height: 80px; */
+    background-color: #f1f1f1;
+    font-family: 'Yatra One', cursive;
+    font-size: 1.2rem;
+
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s ease-in-out;
+  } 
+  .nav-links a:hover {
+    color: rgb(176, 164, 164);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  .btns {
+    display: flex;
+    align-items: center;
+  }
+
+  .btns img {
+    height: 41px;
+    border-radius: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  

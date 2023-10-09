@@ -1,0 +1,72 @@
+/* BookNow.css */
+
+.book-now-section {
+    text-align: center;
+  }
+  
+  .book-now-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .book-now-image-element {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .book-now-form {
+    margin-left: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    width: 30%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type='date'] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type='submit'] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #2980b9;
+  }
+
+  .alpha {
+    background-color: rgb(250, 212, 141);
+    margin: 0 2px;
+    padding: 0 2px;
+    width: 35px;
+    height: 45px;
+    display: inline-block;
+  }
+
+  .des {
+    width: 105.8%;
+  }
+  
+ 

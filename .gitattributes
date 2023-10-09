@@ -1,0 +1,4 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+src/Meghalaya[[:space:]]-[[:space:]]Made[[:space:]]with[[:space:]]Clipchamp.mp4 filter=lfs diff=lfs merge=lfs -text
+src/Untitled[[:space:]]video[[:space:]]-[[:space:]]Made[[:space:]]with[[:space:]]Clipchamp.mp4 filter=lfs diff=lfs merge=lfs -text
